@@ -18,11 +18,13 @@ function johnLennonFacts(facts) {
 function iLoveFiller(num, arr) {
   var i = 0;
   for (; i < num, i++) {
-    arr.push("")
+    arr.push("I love the Beatles!")
   }
 }
 
 function iLoveTheBeatles(num) {
-  var arr = [];
+  if ( num == 7 ) {
+    return 
+  }
   
 }
