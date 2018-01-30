@@ -8,7 +8,8 @@ function theBeatlesPlay(players, instru) {
 }
 
 function johnLennonFacts(facts) {
-  for ( i=0 ; i < facts.length ; i++) {
+  var i = 0
+  for ( ; i < facts.length ; i++) {
     facts[i] += "!!!"
   }
   return facts
