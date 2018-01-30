@@ -18,10 +18,10 @@ function johnLennonFacts(facts) {
 function iLoveFiller(num) {
   var i = 0;
   var arr = [];
-  for (; i < num, i++) {
-    arr.push("I love the Beatles!")
+  for ( ; i < num;  i++ ) {
+    arr.push("I love the Beatles!");
   }
-  return arr
+  return arr;
 }
 
 function iLoveTheBeatles(num) {
