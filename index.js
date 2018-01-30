@@ -15,4 +15,14 @@ function johnLennonFacts(facts) {
   return facts;
 }
 
-function ()
+function iLoveFiller(num, arr) {
+  var i = 0;
+  for (; i < num, i++) {
+    arr.push("")
+  }
+}
+
+function iLoveTheBeatles(num) {
+  var arr = [];
+  
+}
