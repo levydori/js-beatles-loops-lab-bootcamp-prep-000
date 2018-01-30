@@ -1,7 +1,6 @@
 function theBeatlesPlay(players, instru) {
   var arr = [];
-  console.log(players.len)
-  for ( i = 0; i > players.lenght ; i++ ) {
+  for ( i = 0; i > players.length ; i++ ) {
     console.log(i)
     arr.push(players[i] + " plays " + instru[i]);
   }
