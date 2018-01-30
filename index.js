@@ -7,4 +7,9 @@ function theBeatlesPlay(players, instru) {
   return arr;
 }
 
-function 
+function johnLennonFacts(facts) {
+  for ( i=0 ; i < facts.length ; i++) {
+    facts[i] += "!!!"
+  }
+  return facts
+}
