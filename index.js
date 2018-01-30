@@ -2,7 +2,7 @@ function theBeatlesPlay(players, instru) {
   var arr = [];
   var i = 0;
   for ( ; i < players.lenght ; i++ ) {
-    console.log(decodeURI)
+    console.log(i)
     arr.push(players[i] + " plays " + instru[i]);
   }
   return arr;
