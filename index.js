@@ -15,16 +15,19 @@ function johnLennonFacts(facts) {
   return facts;
 }
 
-function iLoveFiller(num, arr) {
+function iLoveFiller(num) {
   var i = 0;
+  var arr = [];
   for (; i < num, i++) {
     arr.push("I love the Beatles!")
   }
+  return arr
 }
 
 function iLoveTheBeatles(num) {
   if ( num == 7 ) {
-    return 
+    return iLoveFiller(8);
+  } else if ( num == 17 ) {
+    return iLoveFiller(1);
   }
-  
 }
